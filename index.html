@@ -383,9 +383,9 @@ footer{background:var(--green-deep);color:rgba(255,255,255,.65);padding:48px 2re
   // 5. Replace the three placeholder values below with your real IDs
   // Template variables available: {{from_name}}, {{from_email}}, {{phone}}, {{course}}, {{message}}
 
-  const EMAILJS_PUBLIC_KEY  = "YOUR_PUBLIC_KEY";   // e.g. "abc123XYZ"
-  const EMAILJS_SERVICE_ID  = "YOUR_SERVICE_ID";   // e.g. "service_hidayah"
-  const EMAILJS_TEMPLATE_ID = "YOUR_TEMPLATE_ID";  // e.g. "template_enquiry"
+  const EMAILJS_PUBLIC_KEY  = "42A6CO-3pH90ygGKm";   // e.g. "abc123XYZ"
+  const EMAILJS_SERVICE_ID  = "service_zeb41oe";   // e.g. "service_hidayah"
+  const EMAILJS_TEMPLATE_ID = "template_c4wflba";  // e.g. "template_enquiry"
   const TO_EMAIL            = "abdullahdawood968@gmail.com";
 
   emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
@@ -411,7 +411,7 @@ footer{background:var(--green-deep);color:rgba(255,255,255,.65);padding:48px 2re
     };
 
     try {
-      if (EMAILJS_PUBLIC_KEY === "YOUR_PUBLIC_KEY") {
+      if (EMAILJS_PUBLIC_KEY === "42A6CO-3pH90ygGKm") {
         // Demo mode — show success without sending (until keys are configured)
         await new Promise(r => setTimeout(r, 1200));
         throw new Error("DEMO");
