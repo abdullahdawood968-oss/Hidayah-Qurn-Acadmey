@@ -416,7 +416,7 @@ footer{background:var(--green-deep);color:rgba(255,255,255,.65);padding:48px 2re
         await new Promise(r => setTimeout(r, 1200));
         throw new Error("DEMO");
       }
-      await emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, params);
+      await emailjs.send(EMAILJS_service_zeb41oe, EMAILJS_template_c4wflba, params);
       msg.textContent = "✓ JazakAllah Khair! Your enquiry has been received. We will contact you soon, In sha Allah.";
       msg.className = "success";
       this.reset();
